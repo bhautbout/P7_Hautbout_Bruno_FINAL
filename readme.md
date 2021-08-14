@@ -10,7 +10,7 @@ Vous devez installer :
 
 Clonez le depot suivant dans un dossier :
 
-https://github.com/bhautbout/P7_Hautbout_Bruno.git
+https://github.com/bhautbout/P7_Hautbout_Bruno_FINAL.git
 
 
 ## frontend

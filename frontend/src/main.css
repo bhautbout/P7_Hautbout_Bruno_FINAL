@@ -1,0 +1,74 @@
+.invalidBox {
+	background: rgb(255, 181, 64);
+	color: white;
+	font-weight: bold;
+	padding: 2rem;
+	text-align: center;
+}
+
+#topBadge {
+	width: 100%;
+	background-color: rgb(96, 106, 113);
+}
+
+.label {
+	font-weight: bold;
+}
+
+.messImage {
+	width: 400px;
+}
+
+.spanTableau {
+	width: 100%;
+}
+
+.tableauListe {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 1.5rem;
+	margin: 1rem;
+	background-color: #9b9fb6;
+	font-size: 1rem;
+}
+
+.tableauEntete {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 1.5rem;
+	margin: 1rem;
+	background-color: #788bf5;
+	font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+	#membre {
+		display: none;
+	}
+
+	#main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.messImage {
+		width: 100%;
+	}
+
+	.panelComment {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.buttonsPanel {
+		width: 100%;
+	}
+
+	.titreResponsive {
+		font-size: 3rem;
+	}
+}

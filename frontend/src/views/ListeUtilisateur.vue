@@ -1,3 +1,5 @@
+<!--Page qui liste les utilisateurs-->
+
 <template>
 	<main class="container">
 		<div class="col-12">
@@ -34,7 +36,7 @@
 						</div>
 					</div>
 				</article>
-				<!-- bloc listes utilisateurs -->
+				<!--bloc liste utilisateurs-->
 				<sub class="col col-md-8">
 					<p class="text-black font-weight-bold text-center m-5 ">
 						LISTE DE TOUS LES UTILISATEURS
@@ -55,7 +57,7 @@
 										.slice(0, 10)
 										.split('-')
 										.reverse()
-										.join('.')
+										.join('/')
 								}}
 							</span>
 							<span class="spanTableau">
@@ -101,7 +103,7 @@ export default {
 					.slice(0, 10)
 					.split('-')
 					.reverse()
-					.join('.');
+					.join('/');
 				self.isAdmin = res.data.isAdmin;
 				self.nameCurrentUser = res.data.userName.charAt(0).toUpperCase() + res.data.userName.slice(1);
 			})

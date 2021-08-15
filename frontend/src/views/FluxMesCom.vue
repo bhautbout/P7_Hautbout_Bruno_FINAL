@@ -1,3 +1,5 @@
+<!--Page qui affiche les messages-->
+
 <template>
 	<main class="container">
 		<div class="col-12">
@@ -44,7 +46,7 @@
 						</div>
 					</div>
 				</article>
-				<!-- bloc avec tous le(s) message(s) -->
+				<!--bloc message(s)-->
 				<sub class="col-12 col-md-8">
 					<div v-for="message in messages" :key="message.id" class="card bg-light my-3">
 						<div class="card-header bg-light d-flex align-items-center justify-content-between m-0 p-1">
@@ -116,7 +118,6 @@ export default {
 					this.messages = rep;
 					rep.splice(10);
 					sessionStorage.setItem('MessageId', rep[0].id);
-					// console.log(this.messages);
 				} else {
 					console.log('Aucun message');
 				}

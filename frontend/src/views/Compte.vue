@@ -1,9 +1,9 @@
-<!-- Page pour consulter son compte et possibilite de modifier son nom -->
+<!--Page pour consulter son compte et possibilite de modifier son nom-->
 <template>
 	<main class="container">
 		<div class="row justify-content-center">
 			<div class="col-10">
-				<!-- Info sur la page actuelle -->
+				<!--Info sur la page actuelle-->
 				<div class="col-12">
 					<h2 class="col-12 my-2 bg-secondary text-white font-weight-bold">Vous consultez votre compte</h2>
 					<Accueil></Accueil>

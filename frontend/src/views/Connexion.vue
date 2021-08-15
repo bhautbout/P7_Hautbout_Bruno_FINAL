@@ -1,3 +1,5 @@
+<!--Page de connexion au compte-->
+
 <template>
 	<main class="container">
 		<section class="col-12 col-md-8 mt-5 mx-auto p-3 bg-light rounded">
@@ -27,7 +29,7 @@
 						placeholder="votre mot de passe"
 					/>
 				</div>
-				<button type="submit" class="btn btn-primary mt-5 w-100 shadow contrastBoutonVert font-weight-bold">SE CONNECTER</button>
+				<button type="submit" class="btn btn-primary mt-5 w-100 shadow contrastBoutonVert font-weight-bold">Se Connecter</button>
 			</form>
 		</section>
 		<div v-show="isInvalid" class="invalidBox m-3" key="invalid">
@@ -35,7 +37,7 @@
 		</div>
 		<div class=" col-7 mx-auto mt-3">
 			<router-link to="/inscription"
-				><button class=" text-white p-2 w-100 border-0 rounded shadow btn-secondary font-weight-bold">INSCRIPTION</button></router-link
+				><button class=" text-white p-2 w-100 border-0 rounded shadow btn-secondary font-weight-bold">S'inscrire</button></router-link
 			>
 		</div>
 	</main>

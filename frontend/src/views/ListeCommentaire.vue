@@ -1,3 +1,5 @@
+<!--Page qui liste les commentaires-->
+
 <template>
 	<main class="container">
 		<div class="col-12">

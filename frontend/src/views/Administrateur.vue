@@ -3,7 +3,7 @@
 <template>
 	<div class="container">
 		<main class="col-12">
-			<!-- Titre de la page -->
+			<!--Titre de la page-->
 			<section class="col-12">
 				<h2 class = "text-white bg-secondary text-center">Zone Administration</h2>
 				<Accueil></Accueil>
@@ -27,7 +27,7 @@
 						</div>
 					</article>
 				</div>
-				<!-- Choix de lister les messages, commentaires ou les utilisateurs -->
+				<!--Choix de lister les messages, commentaires ou les utilisateurs-->
 				<article class="col-md-8">
 					<h2 class="text-black text-center m-5 ">Que voulez faire ?</h2>
 					<div class="row justify-content-around">

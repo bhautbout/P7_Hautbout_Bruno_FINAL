@@ -1,9 +1,11 @@
+<!--Page pour s'inscrire-->
+
+
 <template>
 	<main class="container">
-		<!-- un seul bloc contenant le module d'inscription -->
 		<section class="col-12 col-md-8 mt-5 mx-auto p-3 bg-light rounded">
 			<form @submit.prevent="sendForm(event)">
-				<h1 class="text-center font-weight-bold" style="font-size:4vw;">INSCRIPTION</h1>
+				<h1 class="text-center font-weight-bold" style="font-size:3vw;">INSCRIPTION</h1>
 				<div class="form-group">
 					<label for="inputUserName">Nom d'utilisateur:</label>
 					<input

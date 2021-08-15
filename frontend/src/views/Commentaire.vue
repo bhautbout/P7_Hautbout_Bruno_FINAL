@@ -2,7 +2,7 @@
 
 <template>
 	<main class="container">
-		<!-- titre -->
+		<!--titre de la page-->
 		<div class="row mb-4 rounded">
 			<h2 class="col-12 my-2 btn-secondary font-weight-bold">
 				Vous consultez les commentaires
@@ -74,7 +74,7 @@
 				</div>
 			</section>
 		</div>
-		<!-- section commentaire(s) -->
+		<!--Section commentaire(s)-->
 		<section class="row">
 			<router-link to="/CreerCommentaire"
 				><p v-if="comments.length == 0" class="mt-3 btn btn-sm btn-block btn-secondary font-weight-bold">

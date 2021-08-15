@@ -15,7 +15,7 @@
 						class="form-control"
 						id="inputUserName"
 						aria-describedby="userNameHelp"
-						placeholder="Entrez votre nom ou un pseudo"
+						placeholder="Entrez votre nom ou un pseudo (de 3 à 30 caractères)"
 					/>
 				</div>
 				<div class="form-group">
@@ -39,7 +39,7 @@
 						class="form-control"
 						id="inputPassword"
 						aria-describedby="passwordHelp"
-						placeholder="Votre mot de passe"
+						placeholder="Votre mot de passe (de 8 à 15 car et au moins 1 lettre et 1 chiffre)"
 					/>
 				</div>
 				<button type="submit" class="btn-primary text-white p-2 w-100 border-0 rounded shadow font-weight-bold">S'INSCRIRE</button>

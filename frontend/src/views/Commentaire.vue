@@ -103,7 +103,7 @@
 						n° : <span class="badge badge-light"> {{ comment.id }}</span>
 					</p>
 					<div v-if="isAdmin || comment.UserId == currentUserId">
-						<button @click="deleteComment(comment.id, comment.UserId, currentUserId)" class="border-0">
+						<button @click="suppressionCommentaire(comment.id, comment.UserId, currentUserId)" class="border-0">
 							<img src="../assets/cancel.png" alt="bouton supprimer" style="width:25px" />
 						</button>
 					</div>
@@ -150,7 +150,7 @@ export default {
 					.slice(0, 10)
 					.split('-')
 					.reverse()
-					.join('.');
+					.join('/');
 				self.messageUserName = res.data.userName;
 				self.messageUserId = res.data.userId;
 				self.message = res.data.message;
@@ -217,7 +217,7 @@ export default {
 				return;
 			}
 		},
-		deleteComment(commId, commUid, currentUid) {
+		suppressionCommentaire(commId, commUid, currentUid) {
 			let confirmCommentDeletion = confirm('voulez-vous vraiment suppimer votre commentaire ?');
 			if (confirmCommentDeletion == true) {
 				axios

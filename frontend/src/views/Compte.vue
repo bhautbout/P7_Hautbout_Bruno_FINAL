@@ -43,13 +43,13 @@
 									rows="1"
 									placeholder="Quel est votre nouveau nom ?"
 								></textarea>
-								<button type="button" class="btn btn-success mt-2 p-2 rounded buttonsPanel" @click="updateUser(user)">
+								<button type="button" class="btn btn-success mt-2 p-2 rounded buttonsPanel" @click="majUtilisateur(user)">
 									Validé
 								</button>
 							</div>
 							<div class="card-body mx-auto">
 								<div class="btn rounded p-3" style="cursor:default">
-									<button @click="deleteMyAccount(id)" class="rounded p-2">
+									<button @click="supprimerMonCompte(id)" class="rounded p-2">
 										<span class="m-3 font-weight-bold">Supprimer mon Compte</span
 										><img src="../assets/cancel.png" alt="trash" style="width:25px" />
 									</button>
@@ -104,7 +104,7 @@ export default {
 			});
 	},
 	methods: {
-		updateUser(userName) {
+		majUtilisateur(userName) {
 			axios
 				.put(
 					'http://localhost:3000/api/users/' + sessionStorage.getItem('userId'),
@@ -127,7 +127,7 @@ export default {
 			sessionStorage.clear();
 			router.push({ path: '/' });
 		},
-		deleteMyAccount(n) {
+		supprimerMonCompte(n) {
 			let id = n;
 			let confirmUserDeletion = confirm('voulez-vous vraiment supprimer votre compte ?');
 			if (confirmUserDeletion == true) {
@@ -145,10 +145,10 @@ export default {
 				return;
 			}
 		},
-		toCommentsList() {
+		versListeCommentaire() {
 			router.replace('http://localhost:8080/api/ListeCommentaire');
 		},
-		toUsersList() {
+		versListeUtilisateur() {
 			router.replace('http://localhost:8080/api/ListeUtilisateur');
 		}
 	}

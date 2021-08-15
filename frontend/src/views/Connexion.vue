@@ -2,7 +2,6 @@
 	<main class="container">
 		<section class="col-12 col-md-8 mt-5 mx-auto p-3 bg-light rounded">
 			<form @submit.prevent="handleSubmit">
-				<!-- <p class="text-center"><img src="../assets/login.svg" alt="login_svg" style="width:10rem" /></p> -->
 				<h1 class="text-center font-weight-bold" style="font-size:4vw;">CONNEXION</h1>
 				<div class="form-group mt-3">
 					<label for="inputEmail">Email:</label>
@@ -15,7 +14,6 @@
 						aria-describedby="emailHelp"
 						placeholder="votre email"
 					/>
-					<!-- <span id="emailHelp" class="form-text font-italic">Contactez-nous en cas d'oubli</span> -->
 				</div>
 				<div class="form-group mt-3">
 					<label for="inputPassword">Mot de passe:</label>
@@ -28,7 +26,6 @@
 						aria-describedby="passwordHelp"
 						placeholder="votre mot de passe"
 					/>
-					<!-- <span id="passwordHelp" class="form-text font-italic">Contactez-nous en cas d'oubli</span> -->
 				</div>
 				<button type="submit" class="btn btn-primary mt-5 w-100 shadow contrastBoutonVert font-weight-bold">SE CONNECTER</button>
 			</form>

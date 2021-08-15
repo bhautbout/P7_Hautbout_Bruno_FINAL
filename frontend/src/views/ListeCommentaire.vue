@@ -64,7 +64,6 @@
 							<span class="spanTableau"> {{ i.userName.charAt(0).toUpperCase() + i.userName.slice(1) }} </span>
 							<span class="spanTableau"> {{ i.message.slice(0, 10) }}...</span>
 							<span class="spanTableau"> n° : {{ i.id }}</span>
-							<!-- <span class="spanTableau"> </span> -->
 						</div>
 					</div>
 				</sub>

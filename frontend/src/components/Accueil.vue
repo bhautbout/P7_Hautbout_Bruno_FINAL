@@ -1,4 +1,4 @@
-<!-- Bouton qui renvoi à l'accueil -->
+<!--Bouton qui renvoi à l'accueil-->
 
 <template>
 	<header class="container">

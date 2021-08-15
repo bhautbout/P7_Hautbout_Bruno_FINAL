@@ -27,9 +27,6 @@
 							<router-link v-if="isAdmin" to="/Administrateur"
 								><button type="button" class=" btn btn-secondary mx-auto rounded p-2 buttonsPanel">
 									COMPTE Administrateur
-									<!-- <button class=" rounded p-1 m-1 ">
-										<img src="../assets/trash.svg" alt="trash" style="width:25px" /> ACTIVÉE
-									</button> -->
 								</button></router-link
 							>
 							<router-link v-else to="/Compte"

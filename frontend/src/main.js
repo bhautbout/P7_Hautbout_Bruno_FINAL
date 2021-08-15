@@ -1,4 +1,4 @@
-// Fichier pivot qui fait le lien entre vue, modèles et composants.
+//Fichier qui fait le lien entre les différentes parties de Vue//
 
 import { createApp } from 'vue';
 import App from './App.vue';

@@ -24,28 +24,7 @@
 							<div class="dropdown text-center">
 								<p>Membre depuis le {{ creation }}</p>
 							</div>
-							<!-- <div>
-								<div v-if="isAdmin">
-									<router-link to="/Administrateur"
-										><button v-if="isAdmin" type="button" class=" btn btn-danger mx-auto rounded p-2">
-											Vous êtes l'Administrateur
-										</button></router-link
-									>
-									<router-link to="/Administrateur"
-										><button type="button" class=" btn btn-danger mx-auto m-3 rounded p-2 buttonsPanel">
-											<button class=" rounded p-1 m-1 ">
-												<img src="../assets/trash.svg" alt="trash" style="width:25px" /> ACTIVÉE
-											</button>
-										</button></router-link
-									>
-								</div>
-							</div> -->
 						</div>
-						<!-- <div class="card-body mx-auto">
-							<button class="btn rounded text-white font-weight-bold" style="background-color: grey">
-								En tant qu'administrateur, vous pouvez supprimer des utilisateurs, les messages et les commentaires
-							</button>
-						</div> -->
 					</article>
 				</div>
 				<!-- Choix de lister les messages, commentaires ou les utilisateurs -->

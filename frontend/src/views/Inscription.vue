@@ -3,7 +3,6 @@
 		<!-- un seul bloc contenant le module d'inscription -->
 		<section class="col-12 col-md-8 mt-5 mx-auto p-3 bg-light rounded">
 			<form @submit.prevent="sendForm(event)">
-				<!-- <p class="text-center m-2"><img src="../assets/signup.svg" alt="signup svg" style="width:10rem" /></p> -->
 				<h1 class="text-center font-weight-bold" style="font-size:4vw;">INSCRIPTION</h1>
 				<div class="form-group">
 					<label for="inputUserName">Nom d'utilisateur:</label>
@@ -16,7 +15,6 @@
 						aria-describedby="userNameHelp"
 						placeholder="Entrez votre nom ou un pseudo"
 					/>
-					<!-- <small id="userNameHelp" class="form-text text-muted">De 3 à 30 caractères</small> -->
 				</div>
 				<div class="form-group">
 					<label for="inputEmail">Email:</label>
@@ -29,7 +27,6 @@
 						aria-describedby="emailHelp"
 						placeholder="votre email"
 					/>
-					<!-- <small id="emailHelp" class="form-text text-muted">Entrez une adresse mail valide</small> -->
 				</div>
 				<div class="form-group">
 					<label for="inputPassword">Choisissez un Mot de passe:</label>
@@ -42,7 +39,6 @@
 						aria-describedby="passwordHelp"
 						placeholder="Votre mot de passe"
 					/>
-					<!-- <small id="passwordHelp" class="form-text text-muted">de 8 a 15 caracteres dont au moins 1 lettre et 1 chiffre</small> -->
 				</div>
 				<button type="submit" class="btn-primary text-white p-2 w-100 border-0 rounded shadow font-weight-bold">S'INSCRIRE</button>
 			</form>

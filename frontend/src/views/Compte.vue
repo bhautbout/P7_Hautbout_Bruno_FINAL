@@ -94,7 +94,7 @@ export default {
 					.slice(0, 10)
 					.split('-')
 					.reverse()
-					.join('.');
+					.join('/');
 				self.isAdmin = res.data.isAdmin;
 				self.nameCurrentUser = res.data.userName.charAt(0).toUpperCase() + res.data.userName.slice(1);
 				self.id = res.data.id;

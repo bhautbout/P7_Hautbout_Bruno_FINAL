@@ -42,7 +42,7 @@
 						placeholder="Votre mot de passe (de 8 à 15 car et au moins 1 lettre et 1 chiffre)"
 					/>
 				</div>
-				<button type="submit" class="btn-primary text-white p-2 w-100 border-0 rounded shadow font-weight-bold">S'INSCRIRE</button>
+				<button type="submit" class="btn boutonConnectInscrip p-2 w-100 border-0 rounded shadow font-weight-bold">S'INSCRIRE</button>
 			</form>
 		</section>
 		<div v-show="invalid" class="invalidBox m-2" key="invalid">

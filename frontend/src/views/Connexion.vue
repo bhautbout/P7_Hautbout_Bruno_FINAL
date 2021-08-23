@@ -13,9 +13,11 @@
 						type="email"
 						class="form-control"
 						id="inputEmail"
-						aria-describedby="emailHelp"
+						aria-labelledby="aideEmail"
 						placeholder="votre email"
 					/>
+					<span id="aideEmail" class="form-text font-italic">Veuillez prendre contact en cas d'oubli</span>
+
 				</div>
 				<div class="form-group mt-3">
 					<label for="inputPassword">Mot de passe:</label>
@@ -25,11 +27,13 @@
 						type="password"
 						class="form-control"
 						id="inputPassword"
-						aria-describedby="passwordHelp"
+						aria-describedby="aidePassword"
 						placeholder="votre mot de passe"
 					/>
+					<span id="aidePassword" class="form-text font-italic">Veuillez prendre contact en cas d'oubli</span>
+
 				</div>
-				<button type="submit" class="btn btn-primary mt-5 w-100 shadow contrastBoutonVert font-weight-bold">Se Connecter</button>
+				<button type="submit" class="btn boutonConnectInscrip p-2 w-100 border-0 rounded font-weight-bold">SE CONNECTER</button>
 			</form>
 		</section>
 		<div v-show="isInvalid" class="invalidBox m-3" key="invalid">
@@ -37,7 +41,7 @@
 		</div>
 		<div class=" col-7 mx-auto mt-3">
 			<router-link to="/inscription"
-				><button class=" text-white p-2 w-100 border-0 rounded shadow btn-secondary font-weight-bold">S'inscrire</button></router-link
+				><button class=" text-white p-2 w-100 border-0 rounded shadow btn-secondary font-weight-bold">S'INSCRIRE</button></router-link
 			>
 		</div>
 	</main>

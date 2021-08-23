@@ -5,6 +5,12 @@
 	padding: 2rem;
 	text-align: center;
 }
+.boutonConnectInscrip {
+	background:#0054AD;
+	color: white;
+	
+}
+
 
 #topBadge {
 	width: 100%;
